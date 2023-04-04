@@ -1,0 +1,39 @@
+
+ .ax1{
+    text-decoration: none;
+    color: #43cda3;
+    cursor: pointer;
+    font-size: 15pt;
+ }
+
+ 
+
+ @media screen  and (max-width:850px){
+    .im1{
+        height: 40vh;
+    
+    }
+   
+    .axa1{
+      display: block !important;
+    }
+ }
+ @media screen  and (max-width:1200px){
+   .ll1{
+      display:block !important;
+      background-color: darkgoldenrod;
+   }
+   .axa2{
+      display: block !important;
+   }
+   
+   }
+
+   .ss2{
+      height: 400px;
+      background-color: #f7f7f7;
+   }
+   .imgdiv{
+      width: 20vh;
+      height: 20vh;
+   }

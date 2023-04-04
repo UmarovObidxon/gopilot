@@ -1,0 +1,63 @@
+.wrapper-child-div{
+    height: auto;
+}
+.wrapper-child{width: 18%;height: 80px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 0.2ms;
+    box-shadow: 0 6px 10px -1px rgba(0,0,0,.25);
+    display: grid;
+    color: rgba(52,62,80,10.0);
+    background-color: rgba(248,248,248,10.0);
+    border-color: rgba(237,234,234,10.0);
+
+    
+}
+.wrapper-child-btn{
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 0.2ms;
+    color: rgba(52,62,80,10.0);
+    text-align: center !important;
+    align-self: center;
+    width: 100%;
+}
+.wrapper-child-btn:hover{
+    color: white !important;
+}
+.wrapper-child:hover{
+    background-color: rgba(0, 0, 255, 0.719);
+    color: white !important;
+}
+@media screen and (max-width:1140px) {
+    .wrapper-father{width: 95% !important;}
+    .wrapper{width: 95% !important;}
+    .wrapper-child{        width: 31%;
+    }    
+}
+@media screen and (max-width:810px) {
+    
+    .wrapper-child{        width: 47%;
+    }    
+}
+
+@media screen and (max-width:720px) { 
+    .wrapper-father{width: 95% !important;}
+       .wrapper-child
+       {        width: 47% !important;
+    }  
+}
+@media screen and (max-width:540px) {  
+      .wrapper-child{        width: 100% !important;
+    }
+}
+
+.wrapper-form{
+    height: 100px;
+}
+.wrapper-form-child {
+    height: 50%;
+}
+.wrapper-form-child>input{
+    outline: none;
+}

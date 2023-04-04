@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containerbody::before{
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+    content: "";
+    position: relative;
+    display: table;
+}
+.subscribeblog{
+    border-bottom: 1px solid #7d7d7d;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(125, 125, 125);
+    display: inline-block;
+}
+.submit1{
+    height: 5vh;
+}
+.submit1:hover{
+ background-color: orange !important;
+}
+.ul1{
+    list-style: none;  
+}
+.Links{
+    display: inline-flex !important;
+    margin-right: 20px;
+}
+
+
+
+.div1::before{
+    width: 100%;
+    height: 18px;
+    content: "";
+    background-color: black;
+    position: relative;
+}
+.navlink2{
+    font-size: 9pt;
+    color: #337ab7;
+}
+.Link4{
+    font-size: 13pt;
+}
+.spans{
+    font-size: 9pt;
+}
+
+.basicard:hover{
+   margin-top: -5px;
+   box-shadow: 1px 1px 5px 1px grey;
+   transition: 600ms;
+}
+.basicard:hover .Link4{
+    color: orange !important;
+}
+.pagination{
+    --bs-pagination-hover-bg:#85b9ee;
+    --bs-pagination-hover-color:white;
+    --bs-pagination-color: white;
+    --bs-pagination-bg: orange;    
+    --bs-pagination-active-bg:white;  
+    --bs-pagination-active-color:grey;  
+    --bs-pagination-disabled-bg: gray;
+    --bs-pagination-disabled-color: white;
+    --bs-pagination-border-width: 1px;
+    --bs-pagination-active-border-color: orange;
+    --bs-pagination-disabled-border-color: orange;
+    --bs-pagination-hover-border-color: orange;
+}
+.divli{
+    width: 8.3%;
+}
+@media screen and (max-width: 768px){
+    .divli2{
+        width: 100% !important;
+        display: block;
+    }
+    .divul{
+        display: block;
+    }
+    .divli{
+         width: 100% !important;
+         display: block;
+    }
+}
+@media screen and (max-width:767px){
+    .Link2{
+        margin-left: 0px;
+        border-bottom: 2px solid grey;
+        display: block;
+      margin-top: 10px !important;
+    }
+    .Link3{
+        margin-left: 0px;
+        border-bottom: 2px solid grey;
+        display: block;
+      margin-top: 10px !important;
+    }
+    .ul1{
+       text-align: center;
+        display: inline-block !important;
+        display: block;
+    }
+    .lidiv{
+        margin-top: 15px;
+    }
+    .basicard{
+        margin-top: 10px;
+    }
+}
+.Link2::before{
+position: absolute;
+    content: "";
+    width: 0px;
+    height: 1.5px;
+    background-color: white;
+    margin-top: 21px;
+    transition-delay: 1.2ms;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.Link2:hover::before{
+    width: 6%;
+    background-color: #b9c21e;
+}
+

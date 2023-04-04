@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import React from 'react'
 import "../css/nav.css"
-import { Link,Outlet } from 'react-router-dom';
 export default function nav(props) {
   return (
    
@@ -29,7 +28,6 @@ export default function nav(props) {
         </Navbar.Collapse>
       
       </Container>
-      <Outlet/>
     </Navbar>
   
   );

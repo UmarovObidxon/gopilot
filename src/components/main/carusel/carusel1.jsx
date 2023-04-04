@@ -2,7 +2,7 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import '../carusel/carusel.css'
+import '../../../css/carusel.css'
 const responsive = {
     0: { items: 1 },
     575: { items: 2 },

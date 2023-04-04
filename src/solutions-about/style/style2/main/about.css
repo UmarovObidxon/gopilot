@@ -1,0 +1,42 @@
+
+.about-div>div{
+    width: 24%;
+}
+@media screen and (max-width:1240px) {
+    .about-div>div{
+        width: 23.8%;
+    } 
+    .about-div{
+        width: 98%;
+    }
+}
+@media screen and (max-width:1065px) {
+    .about-div>div{
+        width: 23.3%;
+    } 
+    .about-div{
+        width: 85%;
+    }
+}
+@media screen and (max-width:880px) {
+    .about-div>div{
+        width: 23.1%;
+    } 
+    .about-div{
+        width: 95%;
+    }
+}
+@media screen and (max-width:760px) {
+    .about-div>div{
+        width: 100%;
+    } 
+
+}
+.ss2{
+    height: 300px;
+    background-color: #f7f7f7;
+ }
+ .imgdiv{
+    width: 20vh;
+    height: 20vh;
+ }

@@ -1,0 +1,64 @@
+.buttonx6{
+    width: 50%;
+}
+@media screen and  (max-width:990px){
+    .buttonx6{
+        width: 90% !important;
+    }
+    .sliderz{
+        height: 120vh;
+        
+    }
+   
+}
+a{
+    text-decoration: none;
+}
+Link{
+    list-style: none;
+    text-decoration: none;
+}
+@media screen and (max-width:550px) {
+    .sliderz{
+        width: 100%;
+        height: 150vh;
+    }
+    
+    
+}
+.medal1{
+    font-size: 25pt;
+    color: rgb(129, 129, 247);
+}
+.medal2{
+    font-size: 25pt;
+    color: rgb(58, 195, 199);
+}
+.medal3{
+    font-size: 25pt;
+    color: rgb(67, 67, 231);
+}
+.medal4{
+    font-size: 25pt;
+    color: deeppink;
+}
+.card1{
+    width: 90%;
+    box-shadow: 1px 0 0.4em #eee, -1px 0 0.4em #eee;
+}
+.card1:hover{
+    box-shadow: 1px 0px 15px 1px;
+    transform: scale(1.04);
+}
+.inppp{
+    width: 310px;
+    height: 7vh;
+}
+.inppp2{
+    width: 25%;
+}
+.pomosh:hover{
+    box-shadow: 1px 0px 15px 1px;
+    transform: scale(1.04);
+}
+

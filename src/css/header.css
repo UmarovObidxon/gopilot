@@ -1,0 +1,118 @@
+.headerdiv1{
+    height: auto;
+    margin-top: 60px;
+}
+.text1{font-size: 40pt;}
+.text2{
+    font-size: 22pt;
+}
+.btn1{
+    background-color: rgb(6, 6, 148);
+    width: 60%;
+    height: 50px;
+    color: white;
+}
+.img5{height: auto;}
+.btn2{
+    color: rgb(6, 6, 148);
+    width: 30%;
+    height: 50px;
+}
+
+
+@media screen and (min-width:990px) {
+    .img6{
+        display: none;
+        
+       }
+       .div9{
+        font-size: large;
+       }
+}
+
+    
+
+@media screen and  (max-width:990px){
+.headerdiv1{
+    flex-wrap: wrap-reverse;
+   }
+.div9{
+    font-size: 16px;
+}
+    .img5{
+     
+    display: none !important;
+    }
+
+   .img6{
+    display: flex;
+height: auto;
+
+   }
+
+   .text1{
+    font-size: 18pt;
+   }
+   .text2{
+    font-size: 11pt;
+   }
+   .btn1{
+    width: 90%;
+   }
+   .btn2{
+    width: 90%;
+    margin-top: 10px;
+   }
+   
+   
+}
+
+.div9{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+
+
+/* .div10{
+    height: 70%;
+}
+.div11{
+    height: 70%;
+
+} */
+.div12{
+    height: auto;
+}
+.div13{
+    height: 65vh;
+}
+@media screen and (max-width:550px){
+    .div13{
+    height: 40vh;
+    }
+}
+/* @media screen and (min-width:550px) {
+    .div9{
+        height: 60vh;
+    }
+    
+} */
+@media screen and (max-width:550px) {
+    .div9{
+        font-size: small;
+height: 80vh !important;
+
+    }
+    .div10{
+        height: 35vh !important;
+    }
+    .div11{
+        height: 35vh;
+    }
+    
+}

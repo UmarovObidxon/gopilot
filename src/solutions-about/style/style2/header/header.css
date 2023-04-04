@@ -1,0 +1,20 @@
+.about{
+    height: 70vh;
+    color: #494a52;
+}
+.about-img{
+    height: 100%;
+}
+.about-text{
+    color: #494a52;
+    line-height: normal;
+}
+@media screen and (max-width:810px) {
+    .about{
+        justify-content: center;
+    }
+    .about-text{
+        text-align: center;
+        margin: auto;
+    }
+}

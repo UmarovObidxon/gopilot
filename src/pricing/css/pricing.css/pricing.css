@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containerbody3::before{
+    width: 100%;
+    height: 5vh;
+    content: "";
+    position: relative;
+    display: table;
+}
+.p-state{
+    height: 7px;    
+}
+.email2{
+    height: 20px !important;
+    margin-top: -6px;
+}
+.email3{
+    padding-top: 5px;
+}
+.calculate2{
+    height: 33px;
+}
+.dropdownbasicdiv{
+   background-color: #3a404c;
+   height: 80px;
+}
+@media screen and (max-width: 1200px){
+    .dropdownbasicdiv{
+     display: inline-block !important;
+     width: 80%;
+     height: 330px;
+    margin: auto;
+    }
+    .calculate{
+        margin: auto;
+        height: 40px !important;
+    }
+    .cardiv2{
+        display: block !important;
+    }
+    .cardimg{
+      align-items: center !important;
+    }
+  
+}
+  @media screen and (max-width: 1020px){
+    .cardsbasic{
+      display: inline-block;
+    }
+  }
+      .fa-chevron-right{
+        color: orange;
+        font-size: 10pt;
+      }
+    
+      
+        .cardtext{
+          height: 47.4vh;
+        }
+        @media screen and (min-width: 1020px){
+          .cardtext3{
+            display: block !important;
+          }
+          .spantext2{
+            display: block;
+          }
+          
+        }
+  .cardheader{
+    background: #80b7e3;
+    color: white;
+    text-align: center;
+  }
+  .cardheader2{
+    background-color: #61c6c2;
+    color: white;
+    text-align: center;
+  }
+  .cardheader3{
+    background-color: #5976bb;
+    color: white;
+    text-align: center;
+  }
+  .cardheader4{
+    background-color: #df1984;
+    color: white;
+    text-align: center;
+  }
+  .cardtext2{
+
+    display: flex;
+    padding: 15px;
+ 
+
+  }
+  .cardtext2 h1{
+    font-size: 40pt;
+  }
+  .cardtext3{
+    padding: 15px;
+  }
+
+  .spantext{
+  color: #4a90e2;
+  }
+  .spantext2{
+    color: #ee1b8b;
+  }
+  .spantext3{
+    color: #ee1b8b;
+  }
+  .img1{
+    width: 35px;
+    height: 35px;
+  }
+  .basic1::-webkit-scrollbar{
+    width: 10px;
+}
+.basic1::-webkit-scrollbar-track{
+    background-color: white ;
+    border-radius: 30px;
+}
+.basic1::-webkit-scrollbar-thumb{
+    background-color: #efae0c;
+    border-radius: 30px;
+}
+.bgaccordion{
+  background-color: #f0f0f0;
+  color: #363e4e;
+}
+
+.accordion {
+  --bs-accordion-active-color: black;
+  --bs-accordion-btn-icon: ;
+  --bs-accordion-btn-active-icon: ;
+  --bs-accordion-active-bg:#f0f0f0;
+  --bs-accordion-bg: #f0f0f0;
+  --bs-accordion-btn-focus-border-color: ();
+  --bs-accordion-btn-focus-box-shadow: ();
+}
+.accordion-button:focus{
+  border:none;
+}
+.cardheader1{
+  background-color: #eee;
+}

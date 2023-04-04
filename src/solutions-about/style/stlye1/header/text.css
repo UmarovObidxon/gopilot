@@ -1,0 +1,22 @@
+body {
+    color: #494a52;
+    font-family: Proxima Nova,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 60px;
+    text-decoration: none;
+}
+body {
+    line-height: 1.56;
+    word-break: break-word;
+}
+
+.text{
+    margin-top: 20px;
+    height: 55vh;
+}
+@media screen and (max-width:990px) {
+    .text{
+height: 90vh;
+    }
+}

@@ -1,0 +1,65 @@
+
+a{
+    list-style: none !important;
+}
+.navlink:hover {
+  color: orange !important;   
+}
+.navbuttoon1{
+    width: auto;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+   
+}
+.navbuttoon2{
+    
+    width: auto !important;
+    height: 40px;
+    margin: auto !important;
+    text-align: center;
+ align-items: center;
+}
+.navbuttoon1:hover{
+      background-color: #3e4960 !important;
+      color: white !important;
+     border-color: #3e4960;
+}
+.navbuttoon2:hover{
+     color:orange ;
+     background-color: white !important ;
+}
+@media screen and (max-width: 1049px) {
+    .navbuttoon1{
+        background: none !important;
+        border: none;
+        color: white;
+
+    }
+    .navbar-toggler{
+        margin-right: 40px;
+    }
+    .navlink{
+        color: white !important;
+    }
+    .navbuttoon1:hover{
+        color:orange !important;
+    }
+    .navbars{
+        background-color: #3e4960 !important;
+        padding-bottom: 10px;
+    }
+    .navbuttoon2{
+        width: 95% !important;
+        margin-top: 10px !important;
+        border:1px solid #4c77e3 !important;
+        border-radius: 0%;
+        color: white;
+    }
+    .navbuttoon2:hover{
+        background: none !important;
+    }
+}
+.navbarbasic{
+    height: 50px;
+}

@@ -1,0 +1,79 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+.lolo{
+    height: auto;
+    background-color: #f8f8f8f8;
+}
+.lolo1{
+    width: 50%;
+    text-align: center;
+}
+.lolo2{
+    height: 45vh;
+    background-image: url(https://2857984.fs1.hubspotusercontent-na1.net/hubfs/2857984/2020%20GovPilot%20Brand%20Explainer%20Video.mp4/medium.jpg?t=1673559821230);
+    background-size: cover;
+
+}
+
+
+
+@media screen and  (max-width:800px){
+    .lolo2{
+        justify-content: center !important;
+    }
+    .btn4{
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .lolo{
+        height: auto;
+    }
+  
+}
+.lolo3{
+    height: 40vh;
+}
+.btn4{
+    border-radius: 100px;
+    width: 110px;
+    height: 110px;
+    background-color: blue;
+    opacity: 0.3;
+    border: none;
+}
+
+.sol1{
+    font-size: 30pt;
+}
+.lolo4{
+    height: auto;
+}
+.lolo5{
+    height: auto;
+}
+.img9{
+    height: 5vh;
+}
+.img10{ width: auto;
+    height: 45vh;
+    cursor: pointer;
+}
+  @media screen and  (max-width:990px){
+    .lolo4{
+        flex-wrap: wrap-reverse !important;
+       } 
+       .lolo8{
+        flex-wrap: wrap-reverse !important;
+       }
+       
+    } 
+.img7{
+    height: 7vh;
+}
+.img11{
+    width: auto;
+    height: auto;
+}
+

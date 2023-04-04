@@ -1,0 +1,66 @@
+
+.alice-carousel__wrapper{
+	height: 55vh !important;
+	background-color: white;
+}
+.alice-carousel__dots{
+	display: none;
+}
+.alice-carousel__next-btn-wrapper{
+	width: 120px;
+	height: 120px;
+	font-size: large;
+	position: relative;
+	float: right;
+	margin-top: -300px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+.alice-carousel__next-btn-item{
+	font-size: xx-large;
+	font-size: 50pt;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.alice-carousel__prev-btn-wrapper{
+	width: 120px;
+	height: 120px;
+	font-size: large;
+	position: relative;
+	float: left;
+	margin-top: -300px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+.alice-carousel__prev-btn-item{
+	font-size: xx-large;
+	font-size: 50pt;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imgcarusel{
+	height: 25vh;
+}
+.divcard{
+	width: 60%;
+	margin-left: 75px !important;
+}
+@media screen and  (max-width:568px){
+	.divcard{
+		margin-left: 160px !important;
+		width: 40%;
+	}
+	.imgcarusel{
+		height: auto;
+	}
+       }
+
+ @media screen and  (max-width:400px){
+	.divcard{
+			margin-left: 110px !important;
+		}
+		.alice-carousel__wrapper{
+			height: 40vh !important;
+		}
+		   }
+	

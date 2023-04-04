@@ -41,7 +41,7 @@ export default function slider({data}) {
                     </div>
                 </div>
             </div>
-           <div className='col-xl-12 col-md-12 col-sm-12 col-12 d-flex z-5 overflow-hidden' >
+           <div className='col-xl-12 col-md-12 col-sm-12 col-12 d-flex z-5 overflow-auto' >
                 <div id='div1' className=' border-bottom border-end' onClick={dad1}><img className='img-fluid' src={data[0].a} alt="" id="img3" /></div>
                 <div id='div2 'className=' border-bottom border-end' onClick={dad2}><img className='img-fluid' src={data[0].b} alt="" id="img4" /></div>
                 <div id='div3 'className=' border-bottom border-end' onClick={dad3}><img className='img-fluid' src={data[0].c} alt="" id="img5" /></div>

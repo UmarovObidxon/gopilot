@@ -3,7 +3,6 @@ body {
     font-family: Proxima Nova,sans-serif;
     font-style: normal;
     font-weight: 400;
-    padding-top: 60px;
     text-decoration: none;
 }
 body {
@@ -12,11 +11,12 @@ body {
 }
 
 .text{
-    margin-top: 20px;
-    height: 55vh;
+    margin-top: 60px;
+    height: 70vh;
 }
 @media screen and (max-width:990px) {
     .text{
-height: 90vh;
+height: auto;
+
     }
 }

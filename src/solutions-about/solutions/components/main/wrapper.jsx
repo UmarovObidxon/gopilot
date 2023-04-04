@@ -13,7 +13,7 @@ export default function wrapper({data}) {
       <i class="fa-solid fa-magnifying-glass"></i>
       </form>
     </div>
-    <ul id='myUL' className='wrapper-child-div w-100 gap-4 d-flex flex-wrap'>
+    <ul id='myUL' className='wrapper-child-div row w-100 gap-4 d-flex flex-wrap'>
       
         <li className="wrapper-child rounded"><Link to="/" className="btn wrapper-child-btn  text-center text-success fw-semibold  px-3 fs-5">{data[1].li1}</Link ></li>
         <li className="wrapper-child rounded"><Link to="/" className="btn wrapper-child-btn  text-center text-success fw-semibold  px-3 fs-5">{data[1].li2}</Link ></li>
@@ -66,37 +66,4 @@ function search() {
       }
   }
 }
-// function search(event){
-//   var inp=document.getElementById('inp').value
-//   var btn1=document.getElementById('btn1');
-//   var btn2=document.getElementById('btn2');
-//   var btn3=document.getElementById('btn3');
-//   let key = event.key;
-  
-  
-// if(inp){
-//   btn2.style.display="grid"
-//   btn3.style.display="grid"
-//   btn1.style.display="none" 
-// console.log("A ni bostin") 
-//   }
-//   if(key==="Backspace"){
-//     btn2.style.display="grid"
-//     btn3.style.display="grid"
-//     btn1.style.display="grid"
-//   console.log("backspace ni bostin") 
-//     }
-//   if(key==="b"){
-//     btn2.style.display="none"
-//     btn1.style.display="grid"
-//     btn3.style.display="grid"
-//   console.log("b ni bostin") 
-//   console.log(inp)
-//     }
-//     if(key==="c"){
-//       btn1.style.display="grid"
-//       btn2.style.display="none"
-//       btn3.style.display="none"
-//     console.log("c ni bostin") 
-//       }
-// }
+
